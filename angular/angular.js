@@ -44,7 +44,7 @@ var manualUppercase = function(s) {
 };
 
 
-// String#toLowerCase and String#toUpperCase don't produce correct results in browsers with Turkish
+// String#toLowerCase and String#toUpperCase don't produce correct results in browsers with Turkish3
 // locale, for this reason we need to detect this case and redefine lowercase/uppercase methods
 // with correct but slower alternatives.
 if ('i' !== 'I'.toLowerCase()) {
